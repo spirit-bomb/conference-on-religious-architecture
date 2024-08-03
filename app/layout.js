@@ -20,10 +20,10 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Navbar />
         {/* Hero 1 i.e the cover photo remains on every page. */}
-        <div className="flex flex-col justify-center items-center gap-6 pt-6">
+        <div className="flex flex-col justify-center items-center gap-6 pt-6 w-full">
           <Hero />
           <div className="border flex flex-col w-fit rounded-md overflow-hidden">
-            <div className="h-[46vh] w-[76vw] relative">
+            <div className="md:h-[26rem] md:w-[60rem] h-[6rem] w-[20rem] relative">
               <Image src="/nitp.jpg" alt="hero" fill={true} />
             </div>
             <Subnavbar />
