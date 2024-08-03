@@ -2,6 +2,10 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Image from "next/image";
+
+import Hero from "@/components/Hero";
+import Subnavbar from "@/components/Subnavbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,12 +18,20 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className='w-full border'>
-          <Navbar/>
+        <Navbar />
+        {/* Hero 1 i.e the cover photo remains on every page. */}
+        <div className="flex flex-col justify-center items-center gap-6 pt-6 w-full">
+          <Hero />
+          <div className="border flex flex-col w-fit rounded-md overflow-hidden">
+            <div className="md:h-[26rem] md:w-[60rem] h-[6rem] w-[20rem] relative">
+              <Image src="/nitp.jpg" alt="hero" fill={true} />
+            </div>
+            <Subnavbar />
+            {children}
+          </div>
         </div>
-        <div>{children}</div>
-        <div className='w-full border'>
-          <Footer/>
+        <div className="w-full border">
+          <Footer />
         </div>
       </body>
     </html>
