@@ -14,22 +14,22 @@ export default  function Subnavbar() {
 
               </TabsList>
               <TabsContent value="about">
-                About section
+                about component goes here
               </TabsContent>
               <TabsContent value="venue">
-                venue
+                venue component goes here
               </TabsContent>
               <TabsContent value="paper_call">
-                Call for papers
+                Call for papers component goes here
               </TabsContent>
               <TabsContent value="date">
-                date
+                date component goes here
               </TabsContent>
               <TabsContent value="committee">
-                committee
+                committee component goes here
               </TabsContent>
               <TabsContent value="fees">
-                fees
+                fees component goes here
               </TabsContent>
             </Tabs>
         </>
