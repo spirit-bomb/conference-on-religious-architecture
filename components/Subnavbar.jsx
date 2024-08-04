@@ -3,7 +3,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 export default  function Subnavbar() {  
     return(
         <>
-            <Tabs defaultValue="about" className="w-full">
+            <Tabs defaultValue="about" className="w-full md:px-6">
               <TabsList>
                 <TabsTrigger value="about">About</TabsTrigger>
                 <TabsTrigger value="venue">Venue</TabsTrigger>
@@ -11,7 +11,6 @@ export default  function Subnavbar() {
                 <TabsTrigger value="date">Important Dates</TabsTrigger>
                 <TabsTrigger value="committee">Committee</TabsTrigger>
                 <TabsTrigger value="fees">Registration Fees (including GST)</TabsTrigger>
-
               </TabsList>
               <TabsContent value="about">
                 about component goes here
