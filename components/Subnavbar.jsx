@@ -11,7 +11,6 @@ export default  function Subnavbar() {
                 <TabsTrigger value="date">Important Dates</TabsTrigger>
                 <TabsTrigger value="committee">Committee</TabsTrigger>
                 <TabsTrigger value="fees">Registration Fees (including GST)</TabsTrigger>
-
               </TabsList>
               <TabsContent value="about">
                 about component goes here

@@ -23,7 +23,7 @@ function Navbar() {
       </div>
 
       <div className={`lg:flex lg:flex-col lg:justify-end lg:z-auto w-full lg:w-auto
-       transition-opacity ease-linear duration-1000 ${open?'hidden':''} `}>
+       transition-opacity ease-linear duration-1000 ${open?'':'hidden'} `}>
         <div className='hidden lg:flex lg:justify-end gap-2 lg:items-center lg:pb-4'>
           <input type="text" placeholder="Search Conferences"
           className='px-2 border py-1.5 w-60'/>
