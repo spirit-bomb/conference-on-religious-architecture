@@ -1,4 +1,10 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import About from "./About";
+import Venue from "./Venue";
+import PaperCall from "./PaperCall";
+import ImpDate from "./ImpDate";
+import Commitee from "./Commitee";
+import Fees from "./Fees";
 
 export default  function Subnavbar() {  
     return(
@@ -12,23 +18,23 @@ export default  function Subnavbar() {
                 <TabsTrigger value="committee">Committee</TabsTrigger>
                 <TabsTrigger value="fees">Registration Fees (including GST)</TabsTrigger>
               </TabsList>
-              <TabsContent value="about">
-                about component goes here
+              <TabsContent value="about" className=''>
+                <About/>
               </TabsContent>
               <TabsContent value="venue">
-                venue component goes here
+                <Venue/>
               </TabsContent>
               <TabsContent value="paper_call">
-                Call for papers component goes here
+                <PaperCall/>
               </TabsContent>
               <TabsContent value="date">
-                date component goes here
+                <ImpDate/>
               </TabsContent>
               <TabsContent value="committee">
-                committee component goes here
+                <Commitee/>
               </TabsContent>
               <TabsContent value="fees">
-                fees component goes here
+                <Fees/>
               </TabsContent>
             </Tabs>
         </>

@@ -22,8 +22,8 @@ export default function RootLayout({ children }) {
         {/* Hero 1 i.e the cover photo remains on every page. */}
         <div className="flex flex-col justify-center items-center gap-6 pt-6 w-full px-6">
           <Hero />
-          <div className="border flex flex-col w-fit rounded-md overflow-hidden">
-            <div className="h-48 md:h-72 w-full flex justify-center items-center relative">
+          <div className="border flex flex-col w-fit lg:w-2/3 rounded-md overflow-hidden">
+            <div className="h-48 sm:h-72 md:h-96 w-full flex justify-center items-center relative">
               <Image src="/nitp.jpg" alt="hero" fill={true} />
             </div>
             <Subnavbar />

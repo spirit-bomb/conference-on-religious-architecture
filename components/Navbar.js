@@ -12,8 +12,8 @@ function Navbar() {
       <div className='flex justify-between items-center'>
         <span>
           <Image src="/icra_logo.jpg" alt=""
-          width={90}
-          height={90}
+          width={80}
+          height={80}
           className='object-fill p-0 m-0 cursor-pointer'/>
         </span>
         <span className='text-3xl lg:hidden'>
