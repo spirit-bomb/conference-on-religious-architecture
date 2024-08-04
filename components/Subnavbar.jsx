@@ -3,7 +3,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 export default  function Subnavbar() {  
     return(
         <>
-            <Tabs defaultValue="about" className="w-full">
+            <Tabs defaultValue="about" className="w-full md:px-6">
               <TabsList>
                 <TabsTrigger value="about">About</TabsTrigger>
                 <TabsTrigger value="venue">Venue</TabsTrigger>
