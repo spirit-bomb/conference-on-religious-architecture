@@ -8,7 +8,7 @@ import { useState } from "react";
 function Navbar() {
   const [open,setOpen]=useState(false)
   return (
-    <div className='px-2 sm:px-20 lg:justify-between lg:px-36 xl:px-46 py-4 lg:flex'>
+    <div className='px-6 sm:px-20 lg:justify-between lg:px-36 xl:px-46 py-4 lg:flex'>
       <div className='flex justify-between items-center'>
         <span>
           <Image src="/icra_logo.jpg" alt=""
