@@ -15,7 +15,7 @@ function About() {
           Call for Contributions
           </p>
           <p className='text-justify'>
-          Authors are urged to contribute to the conference by submitting their research abstracts, papers, and e-posters. We accept high-quality research presentations that describe novel and unpublished results of conceptual, creative, empirical, experimental, or theoretical work in all fields of Religious Architecture for presentation at the conference. The conference invites abstracts, papers, and e-posters that discuss the conference's themes. 
+          Authors are urged to contribute to the conference by submitting their research abstracts, papers, and e-posters. We accept high-quality research presentations that describe novel and unpublished results of conceptual, creative, empirical, experimental, or theoretical work in all fields of Religious Architecture for presentation at the conference. The conference invites abstracts, papers, and e-posters that discuss the conference&apos;s themes. 
           </p>
         </div>
         <div>
@@ -23,7 +23,7 @@ function About() {
           Guidelines for Authors
           </p>
           <p className='text-justify'>
-          Please ensure your submission meets the conference's strict guidelines for accepting scholarly papers. Downloadable versions of the checklist for Full-Text Papers and Abstract Papers.
+          Please ensure your submission meets the conference&apos;s strict guidelines for accepting scholarly papers. Downloadable versions of the checklist for Full-Text Papers and Abstract Papers.
           Please refer to the Paper Submission Guideline, Abstract Submission Guideline, and Author Information before submitting your paper.
           </p>
         </div>
