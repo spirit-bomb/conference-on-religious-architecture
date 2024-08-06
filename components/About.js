@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 function About() {
   return (
     <div className='w-fit flex flex-col'>
@@ -7,7 +8,7 @@ function About() {
             The International Research Conference Aims and Objectives
             </p>
             <p className='text-justify'>
-            The objective of the International Conference on Religious Architecture is to convene distinguished academic scientists, researchers, research scholars, and students (PG/UG) to communicate and disseminate their research findings and experiences regarding all aspects of Religious Architecture. It also offers a preeminent interdisciplinary forum for researchers, practitioners, and educators to present and discuss the most recent innovations, trends, and concerns, as well as practical challenges encountered and solutions adopted in the fields of Religious Architecture. 
+            The objective of the International Conference on Religious Architecture is to convene distinguished academic scientists, researchers, research scholars, and students (PG/UG) to communicate and disseminate their research findings and experiences regarding all aspects of Religious Architecture. It also offers a prominent interdisciplinary forum for researchers, practitioners, and educators to present and discuss the most recent innovations, trends, and concerns, as well as practical challenges encountered and solutions adopted in the field of Religious Architecture. 
             </p>
         </div>
         <div>
@@ -23,7 +24,7 @@ function About() {
           Guidelines for Authors
           </p>
           <p className='text-justify'>
-          Please ensure your submission meets the conference&apos;s strict guidelines for accepting scholarly papers. Downloadable versions of the checklist for Full-Text Papers and Abstract Papers.
+          Please ensure your submission meets the conference&apos;s strict guidelines for accepting scholarly papers. Downloadable versions of the checklist for <Link target="_blank" className='text-blue-500' href="https://shorturl.at/JX4ju">Full-Text Papers</Link>  and <Link target="_blank" href="https://shorturl.at/ZKBgm" className='text-blue-500'>Abstract Papers</Link>.
           Please refer to the Paper Submission Guideline, Abstract Submission Guideline, and Author Information before submitting your paper.
           </p>
         </div>

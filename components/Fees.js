@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 function FeesComp({ type,fees }) {
     return (
         <>
@@ -54,6 +55,11 @@ function Fees() {
             fees={'INR 1000'}
             />
         </div>
+        <p className='pt-10' >
+            <span className='font-semibold'>Payment: </span><Link className='text-blue-500' target="_blank" href="https://forms.gle/1nYFhS363vrv4aaV7">
+            https://forms.gle/1nYFhS363vrv4aaV7
+            </Link>
+        </p>
     </div>
   )
 }

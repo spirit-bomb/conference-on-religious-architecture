@@ -20,6 +20,7 @@ function PaperCall() {
         <p className='py-2 text-2xl'>
         The theme of the conference:
         </p>
+
         <List items={['Historical Evolution of Religious Architecture',
             	'Urbanism & Religious Architecture',
             	'Public Architecture',
@@ -56,6 +57,9 @@ function PaperCall() {
                 'Vernacular Religious Architecture',
                 
         ]}/>
+        <p className='py-6'>
+            <span className='font-semibold'>Note: </span>The subtheme is not limited, but any paper related to Religious architecture may be submitted.
+        </p>
 
     </div>
   )
