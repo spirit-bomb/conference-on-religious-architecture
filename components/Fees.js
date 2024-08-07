@@ -4,8 +4,8 @@ function FeesComp({ type,fees }) {
     return (
         <>
         
-            <div className={`col-span-2 border-b border-gray-300 flex flex-col justify-start pl-2 py-2`}>{type}</div>
-            <div className="col-span-1 flex border-b border-gray-300 flex-col justify-center pl-4 py-2">{fees}</div>
+            <div className={`col-span-2 border-b border-gray-300 flex flex-col text-sm md:text-base justify-start pl-2 py-2`}>{type}</div>
+            <div className="col-span-1 flex border-b border-gray-300 flex-col justify-center text-sm md:text-base pl-4 py-2">{fees}</div>
         </>
     )
 }
@@ -92,7 +92,7 @@ function Fees() {
             fees={"IDIBINBBXXX"}
             />
         </div>
-        <p className='mt-14 pl-2 border border-black' >
+        <p className='mt-14 px-2 border border-black' >
             <span className='font-semibold text-lg'>Registration: </span><Link className='text-blue-500' target="_blank" href="https://forms.gle/1nYFhS363vrv4aaV7">
             https://forms.gle/1nYFhS363vrv4aaV7
             </Link>

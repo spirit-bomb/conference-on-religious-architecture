@@ -5,7 +5,7 @@ const List=({items})=>{
         <ul>
         {items.map((points,i)=>{
             return(
-                <li key={i} className="list-disc
+                <li key={i} className="list-disc text-gray-600
                 pb-2">
                    {points}
                 </li>
@@ -18,7 +18,7 @@ function PaperCall() {
 
   return (
     <div>
-        <p className='pb-3'>
+        <p className='py-3'>
            <span className='font-semibold'>Abstract/Paper may be submitted through email: </span>
             <a className='text-blue-500' href="mailto:icra@nitp.ac.in">icra@nitp.ac.in</a>
         </p>

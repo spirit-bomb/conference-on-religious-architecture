@@ -5,6 +5,7 @@ import PaperCall from "./PaperCall";
 import ImpDate from "./ImpDate";
 import Commitee from "./Commitee";
 import Fees from "./Fees";
+import Guidelines from "./Guidelines";
 
 export default  function Subnavbar() {  
     return(
@@ -16,6 +17,7 @@ export default  function Subnavbar() {
                 <TabsTrigger value="paper_call">Call for Papers</TabsTrigger>
                 <TabsTrigger value="date">Important Dates</TabsTrigger>
                 <TabsTrigger value="committee">Committee</TabsTrigger>
+                <TabsTrigger value="guidelines">Guidelines</TabsTrigger>
                 <TabsTrigger value="fees">Registration Fees (including GST)</TabsTrigger>
               </TabsList>
               <TabsContent value="about" className=''>
@@ -32,6 +34,9 @@ export default  function Subnavbar() {
               </TabsContent>
               <TabsContent value="committee">
                 <Commitee/>
+              </TabsContent>
+              <TabsContent value="guidelines">
+                <Guidelines/>
               </TabsContent>
               <TabsContent value="fees">
                 <Fees/>

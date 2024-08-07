@@ -4,7 +4,7 @@ const List=({items})=>{
         <ul>
         {items.map((points,i)=>{
             return(
-                <li key={i} className="list-disc
+                <li key={i} className="list-disc text-gray-600
                 pb-2">
                    {points}
                 </li>
@@ -18,7 +18,7 @@ const OlList=({items})=>{
         <ol>
         {items.map((points,i)=>{
             return(
-                <li key={i} className="list-decimal
+                <li key={i} className="list-decimal text-gray-600
                 pb-2">
                    {points}
                 </li>
