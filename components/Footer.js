@@ -3,7 +3,11 @@
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <div className="p-3 md:p-6">
+    <p className="text-xl font-semibold antialiased">Contact Us </p><br />
+    Department of Architecture and Planning, NIT Patna <br />
+    Ashok Rajpath, Patna 800005, Bihar, India <br />
+    email: <a className='text-blue-500' href="mailto:icra@nitp.ac.in">icra@nitp.ac.in</a></div>
   )
 }
 
