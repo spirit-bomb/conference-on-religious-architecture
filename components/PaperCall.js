@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 const List=({items})=>{
     return(
         <ul>
@@ -17,6 +18,16 @@ function PaperCall() {
 
   return (
     <div>
+        <p className='pb-3'>
+           <span className='font-semibold'>Abstract/Paper may be submitted through email: </span>
+            <a className='text-blue-500' href="mailto:icra@nitp.ac.in">icra@nitp.ac.in</a>
+        </p>
+        <p className='pb-3'>
+            <span className='font-semibold'>Template for Abstract </span><Link href="https://shorturl.at/ZKBgm" target="_blank" className='text-blue-500'>Link</Link>
+        </p>
+        <p className='pb-6'>
+            <span className='font-semibold'>Template for Paper </span><Link href="https://shorturl.at/JX4ju" target="_blank" className='text-blue-500'>Link</Link>
+        </p>
         <p className='py-2 text-2xl'>
         The theme of the conference:
         </p>
@@ -57,8 +68,8 @@ function PaperCall() {
                 'Vernacular Religious Architecture',
                 
         ]}/>
-        <p className='py-6'>
-            <span className='font-semibold'>Note: </span>The subtheme is not limited, but any paper related to Religious architecture may be submitted.
+        <p className='py-6 font-semibold'>
+            Note: The themes are not limited to the listed ones.
         </p>
 
     </div>
