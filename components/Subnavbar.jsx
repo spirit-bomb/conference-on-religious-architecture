@@ -19,6 +19,7 @@ export default  function Subnavbar() {
                 <TabsTrigger value="committee">Committee</TabsTrigger>
                 <TabsTrigger value="guidelines">Guidelines</TabsTrigger>
                 <TabsTrigger value="fees">Registration Fees (including GST)</TabsTrigger>
+                <TabsTrigger value="contact">Contact Us</TabsTrigger>
               </TabsList>
               <TabsContent value="about" className=''>
                 <About/>
@@ -40,6 +41,13 @@ export default  function Subnavbar() {
               </TabsContent>
               <TabsContent value="fees">
                 <Fees/>
+              </TabsContent>
+              <TabsContent value="contact">
+                <div className="p-3 md:p-6">
+                  <p className="text-xl font-semibold antialiased">Contact Us </p><br />
+                  Department of Architecture and Planning, NIT Patna <br />
+                  Ashok Rajpath, Patna 800005, Bihar, India <br />
+                  email: <a className='text-blue-500' href="mailto:icra2024@nitp.ac.in">icra2024@nitp.ac.in</a></div>
               </TabsContent>
             </Tabs>
         </>

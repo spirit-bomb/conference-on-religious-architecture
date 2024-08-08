@@ -37,7 +37,6 @@ export default function RootLayout({ children }) {
           </div>
         </div>
         <div className="w-full border">
-          <Footer />
         </div>
       </body>
     </html>
