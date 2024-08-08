@@ -35,7 +35,7 @@ function ImpDate() {
         Final Paper (Camera Ready) Submission & Early Bird Registration Deadline
         </p>
         <p>
-        	 December 20, 2025
+        	 December 20, 2024
         </p>
       </div>
       <div className='py-2 flex flex-row justify-between text-sm md:text-base lg:mr-20 md:px-3 border-y bg-gray-200'>
@@ -43,7 +43,7 @@ function ImpDate() {
         Conference Dates
         </p>
         <p>
-        December 28-29, 2025
+        December 28-29, 2024
         </p>
       </div>
     </div>
