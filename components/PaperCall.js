@@ -20,7 +20,7 @@ function PaperCall() {
     <div>
         <p className='py-3'>
            <span className='font-semibold'>Abstract/Paper may be submitted through email: </span>
-            <a className='text-blue-500' href="mailto:icra@nitp.ac.in">icra@nitp.ac.in</a>
+            <a className='text-blue-500' href="mailto:icra2024@nitp.ac.in">icra2024@nitp.ac.in</a>
         </p>
         <p className='pb-3'>
             <span className='font-semibold'>Template for Abstract </span><Link href="https://shorturl.at/ZKBgm" target="_blank" className='text-blue-500'>Link</Link>
