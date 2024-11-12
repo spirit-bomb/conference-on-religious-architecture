@@ -43,7 +43,7 @@ function ImpDate() {
         Conference Dates
         </p>
         <p>
-        December 28-29, 2024
+        December 29-30, 2024
         </p>
       </div>
     </div>

@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="flex flex-col lg:flex-row font-semibold text-xl md:text-3xl text-center md:gap-2">
           <span>International Conference on </span><span> Religious Architecture</span>
         </div>
-        <p className="font-semibold">December 28-29, 2024</p>
+        <p className="font-semibold">December 29-30, 2024</p>
         <p className="font-semibold">
           National Institute of Technology, Patna, India
         </p>
