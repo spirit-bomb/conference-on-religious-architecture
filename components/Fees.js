@@ -3,7 +3,7 @@ import Link from 'next/link'
 function FeesComp({ type,fees }) {
     return (
         <>
-        
+
             <div className={`col-span-2 border-b border-gray-300 flex flex-col text-sm md:text-base justify-start pl-2 py-2`}>{type}</div>
             <div className="col-span-1 flex border-b border-gray-300 flex-col justify-center text-sm md:text-base pl-4 py-2">{fees}</div>
         </>
@@ -19,19 +19,19 @@ function Fees() {
             <div className="col-span-2 flex flex-col justify-center font-semibold text-lg  pl-4 py-2">Registration Fees (including GST)</div>
             <div className="col-span-1 flex flex-col justify-center font-semibold pl-4 py-2"></div>
             <FeesComp
-            type={'1. International delegate:'}
+            type={'1. International Delegate:'}
             fees={'USD 250'}
             />
             <FeesComp
-            type={'2. International student'}
+            type={'2. International Student'}
             fees={'USD 100'}
             />
             <FeesComp
-            type={'3. SAARC & Developing Countries delegate'}
+            type={'3. SAARC & Developing Countries Delegate'}
             fees={'USD 150'}
             />
             <FeesComp
-            type={'4. SAARC & Developing Countries student'}
+            type={'4. SAARC & Developing Countries Student'}
             fees={'USD 50'}
             />
         </div>
@@ -56,6 +56,21 @@ function Fees() {
             <FeesComp
             type={'4. UG Students'}
             fees={'INR 1000'}
+            />
+        </div>
+        <p className='mt-14 pl-2 text-xl border border-black font-bold'>
+            Guest Delegates:
+        </p>
+        <div className="grid grid-cols-3 mt-8">
+            <div className="col-span-2 flex flex-col justify-center text-lg  font-semibold pl-4 pb-2">Registration Fees (including GST)</div>
+            <div className="col-span-1 flex flex-col justify-center font-semibold pl-4 pb-2"></div>
+            <FeesComp
+            type={'1. Guest Registeration With Kit'}
+            fees={'INR 3000'}
+            />
+            <FeesComp
+            type={'2. Guest Registeration Without Kit'}
+            fees={'INR 1500'}
             />
         </div>
         <p className='mt-14 pl-2 text-xl border border-black font-bold'>
