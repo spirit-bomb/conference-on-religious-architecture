@@ -19,7 +19,7 @@ function ImpDate() {
         Full-Text Paper Submission Deadline
         </p>
         <p>
-        December 05, 2024
+        January 30, 2025
         </p>
       </div>
       <div className='py-2 flex flex-row justify-between text-sm md:text-base lg:mr-20 md:px-3 border-y bg-gray-200'>
@@ -32,7 +32,7 @@ function ImpDate() {
       </div>
       <div className='py-2 flex flex-row justify-between text-sm md:text-base lg:mr-20 md:px-3 border-y '>
         <p className='w-2/3'>
-        Final Paper (Camera Ready) Submission & Early Bird Registration Deadline
+        Registration Deadline
         </p>
         <p>
         	 December 20, 2024
