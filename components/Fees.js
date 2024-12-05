@@ -65,11 +65,11 @@ function Fees() {
             <div className="col-span-2 flex flex-col justify-center text-lg  font-semibold pl-4 pb-2">Registration Fees (including GST)</div>
             <div className="col-span-1 flex flex-col justify-center font-semibold pl-4 pb-2"></div>
             <FeesComp
-            type={'1. Guest Registeration With Kit'}
+            type={'1. Guest Registration With Kit'}
             fees={'INR 3000'}
             />
             <FeesComp
-            type={'2. Guest Registeration Without Kit'}
+            type={'2. Guest Registration Without Kit'}
             fees={'INR 1500'}
             />
         </div>
