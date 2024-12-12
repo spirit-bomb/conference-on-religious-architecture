@@ -13,8 +13,12 @@ const List=({items})=>{
         </ul>
     )
 }
-const OlList=({items})=>{
+const OlList=({items,title})=>{
     return(
+        <div className='mb-2'>
+        <p className='pb-2 text-xl'>
+            {title}
+        </p>
         <ol>
         {items.map((points,i)=>{
             return(
@@ -25,53 +29,99 @@ const OlList=({items})=>{
             )
         })}
         </ol>
+        </div>
     )
 }
 function Commitee() {
   return (
     <div className='flex flex-col'>
-        <p className='text-2xl pt-3 pb-6'>
-            Committee:
+        <p className='text-2xl pt-3 pb-8 underline mx-auto'>
+            Organising Committees
         </p>
-        <div className='flex flex-col pb-3'>
+        <div className='flex flex-col pb-3 mt-8'>
             <p>
-                <span className='font-semibold'>Patron: </span>Prof. (Dr.) P. K. Jain, Director, National Institute of Technology Patna
+                <span className='font-semibold'>Patron- Prof. (Dr.) P.K. Jain</span> (Director, NIT Patna)
             </p>
             <p>
-                <span className='font-semibold'>Chairman: </span>Prof. (Dr.) Fulena Rajak, Head, Department of Architecture & Planning, National Institute of Technology Patna
+                <span className='font-semibold'>Chairman- Prof. (Dr.) Fulena Rajak</span> (HoD, Department of Architecture & Planning, NIT Patna)
             </p>
         </div>
-        <p className='pb-3 text-xl'>
-            Convenors:
-        </p>
+
         <div className='pb-3'>
-            <OlList items={['Dr. B. K. Das, Associate Professor, Department of Architecture & Planning, National Institute of Technology Patna',
-                            'Dr. Ajay Kumar, Associate Professor, Department of Architecture & Planning, National Institute of Technology Patna',
-                            'Dr. Ravish Kumar, Assistant Professor, Department of Architecture & Planning, National Institute of Technology Patna',
-                            'Ar. Sandeep Kumar, Assistant Professor, Department of Architecture & Planning, National Institute of Technology Patna',
-                        ]}/>
+            <OlList items={['Dr. B. K. Das',
+                            'Dr. Ajay Kumar',
+                            'Dr. Ravish Kumar',
+                            'Ar. Sandeep Kumar',
+                        ]}
+                    title={"Secretaries:"} />
+            <p className='mb-6'>
+                <span className='font-semibold'>Note:</span> Dr. B.K. Das will act as the conference convenor.
+            </p>
+            <OlList items={['Dr. Kranti Kumar Maurya',
+                            'Dr. Sandeep Kumar	',
+                            'Ar. Shubham Meena',
+                        ]}
+                    title={"Research Paper Committee:"} />
+            <OlList items={['Ar. Anuhsri Barman',
+                            'Ar. Preksha Gupta	',
+                            'Ar. Pradeep Kr. Kori',
+                        ]}
+                    title={"Venue Committee:"} />
+            <p className='mb-6'>
+                <span className='font-semibold'>Inaugration Venue- Meghnad Saha Hall & Visvesvaraya Hall</span>
+            </p>
+            <OlList items={['Dr. Mazharul Haque',
+                            'Dr. Ravish Kumar	',
+                            'Ar. Abhishek Kumar Bittu',
+                            'Ar. Supriya Kumari',
+                        ]}
+                    title={"Decoration Committee and stall management"} />
+            <OlList items={['Dr. Shailendra K. Mandal',
+                            'Dr. Ajay Kumar',
+                            'Ar. Abhishek Kumar Bittu',
+                        ]}
+                    title={"Food Committee"} />
+            <OlList items={['Dr. Anjali Sharma',
+                            'Dr. Ravish Kumar	',
+                            'Ar. Anushri Barman',
+                        ]}
+                    title={"Cultural Committee"} />
+            <OlList items={['Dr. Md. Danish',
+                            'Ar. Rakesh Kumar',
+                            'Ar. Milind Ashok Kamble',
+                        ]}
+                    title={"Accommodation and Transport"} />
+            <OlList items={['Prof. Fulena Rajak',
+                            'Prof. Manoj Kumar',
+                            'Dr. B.K. Das',
+                            'Dr. Kamini Sinha',
+                        ]}
+                    title={"Overall Management"} />
+            <OlList items={['Prof.(Dr.) Fulena Rajak',
+                            'Sri Mani Shankar Singh',
+                            'Dr. Bijay Kumar Das',
+                            'Dr. Ajay Kumar',
+                        ]}
+                    title={"Finance committee"} />
+            <OlList items={['Prof. (Dr.) Adam Hardy, Cardiff University, Wales U.K.',
+                            'Prof. (Dr.) Janaka Wijesundara, University of Moratuwa, Sri Lanka',
+                            'Prof. (Dr.) Amit Kumar, Najing University, China',
+                            'Dr. Jayesh Juremalani, Samara University, Ethiopia',
+                            'Dr. Sridhar Rajan, Bengaluru',
+                            'Prof (Dr) G. Subbaiyan, NIT Tiruchirappalli',
+                            'Prof. (Dr.) Dharmesh Juremalani, VNSG University, Surat',
+                            'Ar. Anil Kumar, BCD, Bihar Government',
+                            'Ar. Dhananjay Kumar, BCD,  Bihar Government',
+                            'Dr. Sanjeev Maheshwari, AMU, Aligarh',
+                            'Ar. C. S. Sinha, Sinha Associates, Patna',
+                            'Ar. Vikash Ranjan, GM (Property and Development, PMRC Patna)',
+                            'Prof. (Dr.) Nagendra Narayan, LPU Punjab ',
+                            'Dr. Aditya Sanyal, Dept. of Arch. Plan. & Design, IIT BHU',
+                            'Ms. Vishi Upadhyay, Bihar Museum, Patna',
+                        ]}
+                    title={"Advisory Committee"} />
         </div>
-        <p className='pb-3 text-xl'>
-           Organizing Committee
-        </p>
-        <div>
-            <List items={['Prof. (Dr.) Manoj Kumar, Professor',
-                        'Dr. Kamini Sinha, Associate Professor',
-                        'Dr. Shailendra K. Mandal, Associate Professor',
-                        'Dr. Mazharul Haque, Associate Professor',
-                        'Dr. Anjali Sharma, Assistant Professor',
-                        'Dr. Md. Danish, Assistant Professor',
-                        'Ar. Anushri Barman, Assistant Professor',
-                        'Ar. Abhishek Kumar Bittu, Assistant Professor',
-                        'Ar. Kranti Kumar Maurya, Assistant Professor',
-                        'Ar. Supriya Kumari, Assistant Professor',
-                        'Ar. Rakesh Kumar, Assistant Professor',
-                        'Ar. Preksha Gupta, Assistant Professor',
-                        'Ar. Shubham Meena, Assistant Professor',
-                        'Ar. Milind Ashok Kamble, Assistant Professor',
-                        'Ar. Pradeep Kr. Kori, Assistant Professor',
-                    ]}/>
-        </div>
+
     </div>
   )
 }
